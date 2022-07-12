@@ -1,0 +1,144 @@
+/* Fundo cabeçalho */
+nav {
+    background-image: linear-gradient(to bottom, #232323, #ffffff);
+    height: 220px;
+    width: auto;
+}
+
+/* Tamanho img */
+nav img {
+    width: auto;
+    height: 150px;
+    margin: 25px;
+}
+
+.Logo {
+    width: 13%;             /* Espaço ocupado pela imagem */
+    float: left;            /* Posicionamento */
+    padding-left: 90px;
+}
+
+.Menu-principal ul li {
+    list-style-type: none;      /* retirar os pontos antes do menu */
+    display: inline-flex;       /* texto ao lado um do outro com ajustamento do menu à caixa */
+    margin-left: 120px;         /* Espaçamento entre palavras */
+    margin-top: 95px;           /* Epaço em cima */
+    color: white;
+}
+
+.Menu-principal ul li a {
+    border-top: 8px solid transparent;                                   /* Linha em cima do menu */ 
+    border-image: linear-gradient(120deg, #c69349, #fbf1a2) 1;       /* Cor da Linha em cima do menu  */
+    padding-top: 5px;                                                    /* Espaçamento entre o menu e a linha de cima */
+}
+
+
+.Menu-principal ul li:hover {
+    Color: #000000;          /* Cor da letra do menu qd clicas */
+}
+
+.Menu-principal ul li a:hover {    
+    border-top: none;                                                /* Retirar linha em cima do menu */
+    background:linear-gradient(to right, #c69349, #fbf1a2);     /* Fundo menu quando clicas */
+    border-radius: 10% / 50%;                                       /* cantos arrendondados Fundo menu */
+    padding-inline: 9px;                                           /* Espaçamento do background no menu qd clicas */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+/* Corpo do Site */
+
+header .fundo_corpo img {
+    height: 270px;          /* Tamanho img inicial */
+    width: 1050px;
+    padding-left: 230px;    /* Centrar imagem */
+}
+
+header .Fundo_corpo p {
+    color:transparent;                                          /* a cor do texto deve estar como transparent */
+    position: absolute;                                         /* Posição em relação à imagem - Por cima */ 
+    bottom: 300px; left: 290px;                                 /* Posição em relação às margens */ 
+    font-size: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#c69349, #fbf1a2);    /* fundo gradiente */
+    background-clip: text;                                      /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    -webkit-background-clip: text;                              /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    }
+
+header .texto_2 {
+    color: transparent;                                         /* a cor do texto deve estar como transparent para gradiente */
+    position: absolute;                                         /* Posição em relação à imagem - Por cima */ 
+    bottom: 220px; left: 520px;                                 /* Posição em relação às margens */ 
+    font-size: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#c69349, #fbf1a2);    /* fundo gradiente */
+    background-clip: text;                                      /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    -webkit-background-clip: text;                              /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+}
+
+.Caixa_informacao {
+    width: 300px;           /* Largura do texto */
+    float: none;
+}
+.Caixa_informacao h1 {
+    font-size: 85%;        /* Tamanho do texto */ 
+    text-align: center;
+}
+.Caixa_informacao p {
+    font-size: 20px;       /* Tamanho do texto */ 
+    text-align: justify;
+    color: #67686c;
+}
+
+
+.Caixa_1 {
+    float: left;
+    position: relative;
+    top: 40px; left: 230px;      /* Posição da caixa de texto 1 - total 1000px*/      
+}
+.Caixa_2 {
+    float: left;
+    position: relative;
+    bottom: 340px;    left: 604px;    /* Posição da caixa de texto 2 - total 1000px*/      
+}
+.Caixa_3 {
+    float: left;
+    position: relative;
+    bottom: 720px; left: 973px;   /* Posição da caixa de texto 3 - total 1000px*/      
+}
+
+
+
+
+/* Rodapé do Site */
+
+footer img {
+    height: auto;          /* Tamanho img inicial */
+    width: 1050px;
+    padding-left: 240px;
+}
+
+footer .direitos {
+    color:transparent;
+    position: absolute;             /* Posição em relação à imagem - Por cima */ 
+    bottom: -1160px; left: 280px;     /* Posição em relação às margens */ 
+    font-size: 16px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#c69349, #fbf1a2);    /* fundo gradiente */
+    background-clip: text;                                      /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    -webkit-background-clip: text;                              /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */ 
+}
+
+footer .sca_vera {
+    color:transparent;
+    position: absolute;                                          /* Posição em relação à imagem - Por cima */ 
+    bottom: -1160px; left: 1120px;                                /* Posição em relação às margens */ 
+    font-size: 16px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#c69349, #fbf1a2);    /* fundo gradiente */
+    background-clip: text;                                      /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    -webkit-background-clip: text;                              /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */ 
+}
